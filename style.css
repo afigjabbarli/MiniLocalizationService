@@ -1,0 +1,66 @@
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 1800px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header
+{
+    width: 100vw;
+    background-color: crimson;
+    padding: 2rem;
+}
+
+header a
+{
+    color: white;
+}
+
+header .container .pages ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5rem;
+}
+
+header .container .pages ul li a
+{
+    font-size: 2rem;
+    transition: .5s;
+    /* position: relative; */
+}
+
+header .container .pages ul li a::after
+{
+    
+}
+header .container .pages ul li a:hover ::after
+{
+    
+}
+
+header .container .logo a
+{
+    font-size: 3rem;
+}
